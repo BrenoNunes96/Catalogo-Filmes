@@ -1,0 +1,119 @@
+/* .cima */
+.cima {
+    width: 100%;
+    display: flex; /* Use flex para alinhar os elementos horizontalmente */
+    align-items: center; /* Alinhe os itens verticalmente ao centro */
+    height: 70px;
+    background: linear-gradient(to bottom, #048ae4, #2169b1);
+
+    color: white;
+    padding: 0%;
+  }
+  
+  /* .p */
+  .p {
+    margin-left: 150px;
+    font-size: 30px;
+  }
+  
+  .paragrafo{
+    margin-left: 150px;
+    font-size: 30px;
+  }
+  /* .seu-botao */
+
+
+  .botao {
+    width: 100px; /* Ajuste a largura conforme necessário */
+    height: 40px; /* Ajuste a altura conforme necessário */background: none;
+    
+    color: aliceblue;
+    margin-left: 800px; /* Isso empurra o botão para a margem direita da div */
+    border: none;
+    cursor: pointer;
+  }
+  
+.botao1{
+    background-color: rgb(70, 38, 38);
+    color:white;
+    padding: 2px;
+    cursor: pointer;
+
+}
+  
+.cima2{
+    width: 100%;
+    margin-top: -30px;
+    height: 60px;
+    background-color: rgb(27, 26, 25); 
+    box-shadow: 0px -5px 5px -5px rgb(0, 0, 0);
+color:white;
+
+}
+
+
+.card{
+    display:inline-block;
+    flex-wrap: wrap;
+
+    width:140px;
+    height: 210px;
+    background-color: rgb(24, 18, 18);
+    background-position: center; /* ou qualquer outra posição desejada */
+
+background-image: url("https://github.com/StreamCo/react-coding-challenge/blob/master/assets/placeholder.png?raw=true");
+margin-left: 150px;
+margin-top: 100px;}
+.paragrafoo{
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+    margin-left: 20px;
+    margin-top: 80px;
+
+    width: auto
+
+
+}
+
+.paragrafofinal{
+    margin-top: 80px;
+    font-size: medium;
+    
+
+}
+
+footer{
+    margin-top: 140px;
+    background-color: black;
+    height: 172px;
+}
+
+.pp{
+    color: grey;
+    font-size: small;
+    margin-left: 200px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin: 10px;
+    
+}
+
+img{
+    
+    width: 20px;
+    height: 20px;
+    margin-top: -200px;
+    margin: 10px;
+    
+}
+
+.imagem{
+    margin-right: 400px;
+    margin: 10px;
+    width: 100px;
+    float: inline-end;
+    height: 80px;
+    
+    
+}
